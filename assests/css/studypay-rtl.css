@@ -1,0 +1,31 @@
+.section-header{
+
+    left: initial;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.aboutus .aboutus-image {
+    left: initial;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.school-operations .facilitating-processes img {
+    right: initial;
+    left: 0
+  }
+
+  .footer .copyright{
+    direction: ltr;
+  }
+
+
+
+

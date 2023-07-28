@@ -2,7 +2,9 @@
 
     left: initial;
     right: 50%;
-    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
   }
 
 body{
@@ -14,7 +16,9 @@ body{
 .aboutus .aboutus-image {
     left: initial;
     right: 50%;
-    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+            transform: translateX(50%);
 }
 
 .school-operations .facilitating-processes img {

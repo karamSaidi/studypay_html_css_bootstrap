@@ -289,14 +289,14 @@ padding-bottom: calc(var(--section-padding) * 2);
 }
 
 .personal-paying .img-box{
-display: block;
+/* display: block; */
 position: relative;
 }
 .personal-paying .img-box:before, 
 .personal-paying .img-box:after {
 content: "";
 position: absolute;
-background-image: url('/assests/images/Ornament\ 11.svg');
+background-image: url('../images/Ornament\ 11.svg');
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 50%;
@@ -483,7 +483,7 @@ position: relative;
 .school-operations .parental-care .img-box:after {
 content: "";
 position: absolute;
-background-image: url('/assests/images/Ornament\ 11.svg');
+background-image: url('../images/Ornament\ 11.svg');
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 50%;
@@ -656,14 +656,14 @@ font-weight: 700;
 
 
 .contact .img-box{
-display: inline-block;
+/* display: inline-block; */
 position: relative;
 }
 .contact .img-box:before, 
 .contact .img-box:after {
 content: "";
 position: absolute;
-background-image: url('/assests/images/Ornament\ 11.svg');
+background-image: url('../images/Ornament\ 11.svg');
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 50%;

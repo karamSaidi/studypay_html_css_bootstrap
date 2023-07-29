@@ -31,5 +31,12 @@ body{
   }
 
 
-
-
+  @media (max-width: 418px){
+    .footer .footer-links{
+      -webkit-transform: translateX(50%);
+          -ms-transform: translateX(50%);
+              transform: translateX(50%);
+      left: initial;
+      right: 50%;
+    }
+    }

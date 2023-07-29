@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studypay</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assests/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="./assests/css/studypay.css">
+
+</head>
+
+<body>
+
+    <div class="auth-page">
+
+
+        <div class="auth-box">
+            <img class="auth-logo" src="./assests/images/Logo.svg" alt="logo">
+
+            
+            <form action="">
+                <input type="radio" style="display: none;" checked="checked" name="userType" value="1" id="UserType1">
+                <input type="radio" style="display: none;" name="userType" value="2" id="UserType2">
+                
+                <div class="auth-option mt-4">
+                    <label class="active" for="UserType1">School</label>
+                    <label for="UserType2">Seller</label>
+                </div>
+
+                <div class="auth-form mt-4">
+                    <div class="welcome-text mb-5">Set Password 🔑</div>
+
+
+                    <div class="mb-4">
+                        <label for="password" class="form-label">
+                            Password
+                            <span class="text-danger">*</span>
+                        </label>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Email passwrod">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password_confirmation" class="form-label">
+                            Re-enter Password
+                            <span class="text-danger">*</span>
+                        </label>
+                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" placeholder="Re-enter Password">
+                    </div>
+
+
+                    <button type="submit" class="btn btn-auth mb-4">Set Password</button>
+
+
+
+                </div>
+
+            </form>
+        </div>
+
+
+
+        <div class="copyright text-center text-red-700 py-3">
+            2023 StudyPay . All right reserved.
+        </div>
+
+
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="./assests/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+
+    <script type="text/javascript">
+        $('body').on('click', '.auth-option label', function(){
+            $('.auth-option label').removeClass('active');
+            $(this).addClass('active');
+        })
+       
+    </script>
+</body>
+
+</html>
